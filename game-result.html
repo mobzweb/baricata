@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Game Result</title>
+    
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header class="header">
+		<div class="header-wrapper">
+			<div class="logo-menu">
+				
+				<a href="#" class="ds-logo">
+					Dashboard
+				</a>
+				<button class="menu-toggle">
+					<img src="assets/img/toggle-bar.png" />
+				</button>
+			</div>
+			<div class="status-game">
+				<div class="dropdown">
+  <a href="#" class="js-link">Admin <i class="fa fa-chevron-down"></i></a>
+  <ul class="js-dropdown-list">
+    <li><i class="fa fa-user"></i> My Account</li>
+    <li><i class="fa fa-lock"></i> Update Security</li>
+    <li><i class="fa fa-money" aria-hidden="true"></i> Generate Amount</li>
+    <li><i class="fa fa-file"></i> Set Landing Page</li>
+    <li><i class="fa fa-sign-out fa-fw"></i> Logout</li>
+  </ul>
+</div>
+				
+			</div>
+		</div>
+	</header>
+<div class="full-page">
+
+
+<!-- Left Side Menu -->
+
+<div class="dashboardo-block scroller">
+	<div class="das-menu">
+		<!-- <div class="drawer-menu-heading"></div> -->
+		<div class="das-menu-list">
+			<ul>
+				<li>
+					<a href="#"><img src="assets/img/dashboard.png" /><span>Dashboard</span></a>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>Live Players</span> <span class="arrow"><img src="assets/img/right.png" width="8" /></span></a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Bot Status</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>Game Management</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Poker Table</a>
+						</li>
+						<li>
+							<a href="#">Rummy Table</a>
+						</li>
+						<li>
+							<a href="#">Call Break Table</a>
+						</li>
+						<li>
+							<a href="#">Ludo Table</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#"><img src="assets/img/dashboard.png" /><span>Game History</span>
+					</a>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>Player Management</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Manage Player</a>
+						</li>
+						<li>
+							<a href="#">Bank Details</a>
+						</li>
+						<li>
+							<a href="#">Player Kyc</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#"><img src="assets/img/dashboard.png" /><span>Affiliate Management</span>
+					</a>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>Finance</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Send Out</a>
+						</li>
+						<li>
+							<a href="#">Deposit transactions</a>
+						</li>
+						<li>
+							<a href="#">Claim Back</a>
+						</li>
+						<li>
+							<a href="#">Cashin vs Cashout</a>
+						</li>
+						<li>
+							<a href="#">Withdrawal Transaction</a>
+						</li>
+						<li>
+							<a href="#">Withdrawal Request</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>Manage Campaign</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Banner</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>Manage Bots</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Poker AI Rules</a>
+						</li>
+						<li>
+							<a href="#">Bots Management</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>HR Management</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Role Management</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>Messages</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Messages</a>
+						</li>
+						<li>
+							<a href="#">Scroller Setting</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>Manage Tournament</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Ludo Tournament</a>
+						</li>
+						<li>
+							<a href="#">Ludo Sng Tournament</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>Master Setting</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Game Category</a>
+						</li>
+						<li>
+							<a href="#">Game List</a>
+						</li>
+						<li>
+							<a href="#">Manage Maintenance</a>
+						</li>
+						<li>
+							<a href="#">Stake Details</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>Support Details</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Support Details</a>
+						</li>
+						<li>
+							<a href="#">Support</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>Analytics</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Login History</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>Turnover Report</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Player Turnover</a>
+						</li>
+						<li>
+							<a href="#">State Agent Turnover</a>
+						</li>
+						<li>
+							<a href="#">Master Turnover</a>
+						</li>
+						<li>
+							<a href="#">Super Agent Turnover</a>
+						</li>
+						<li>
+							<a href="#">Agent Turnover</a>
+						</li>
+						<li>
+							<a href="#">Quick Turnover</a>
+						</li>
+						<li>
+							<a href="#">Quick Turnover Claim</a>
+						</li>
+						<li>
+							<a href="#">Overall Turnover</a>
+						</li>
+						<li>
+							<a href="#">PlayerClaim Turnover</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>Commission Report</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">State Agent Commission</a>
+						</li>
+						<li>
+							<a href="#">Master Commission</a>
+						</li>
+						<li>
+							<a href="#">Super Agent Commission</a>
+						</li>
+						<li>
+							<a href="#">Agent Commission</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)"><img src="assets/img/dashboard.png" /><span>Miscellaneous</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Become Affiliate</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+		
+
+	</div>
+	<div class="das-footer">
+		
+	</div>
+</div>
+
+
+
+	<div class="loader-line"></div>
+	<!-- <div class="refresh">
+		<button class="refresh-btn"> <img src="assets/img/refresh.png" /></button>
+	</div> -->
+	<div class="right-sidebar">
+	
+	<div class="das-bg-block w-100">
+		<div class="das-title">
+			<h1>Game Result</h1>
+		</div>
+		<div class="filter-btn" style="display: flex;">
+			<div class="filter-item" id="search-filter" style="margin-right: 15px;">
+			<input type="text" placeholder="Search..." name="" class="table-search table-search-in" />
+			<button class="search-btn"><i class="fa fa-search"></i></button>
+		</div>
+			<button class="" id="search-filter-btn" style="margin-right:10px;"><i class="fa fa-search"></i></button>
+			<button id="filter-filter-btn">
+				<i class="fa fa-filter"></i>
+				<!-- <img src="assets/img/filter.png" class="deactive-filter" />
+				<img src="assets/img/filter(1).png" class="active-filter" /> -->
+			</button>
+		</div>
+      
+	</div>
+    <div class="w-100 table-filter" style="margin-top: 0px;">
+	
+        <div class="filter-item" id="filter-filter">
+                <select>
+                <option>Lorem Ipsum</option>
+                <option>Lorem Ipsum</option>
+            </select>
+            <select>
+                <option>Lorem Ipsum</option>
+                <option>Lorem Ipsum</option>
+            </select>
+            <select>
+                <option>Lorem Ipsum</option>
+                <option>Lorem Ipsum</option>
+            </select>
+           
+            <button class="search-btn"><i class="fa fa-search"></i></button>
+            </div>
+            </div>
+	<div class="w-100 online-players-list" style="overflow: auto;">
+		<table >
+            <thead >
+                <tr>
+                    <th>S.No.</th>
+                    <th>Date</th>
+                    <th>Game</th>
+                    <th>Result</th>
+                    <th>Session</th>
+                </tr>
+            </thead>
+          <tbody>
+            <tr>
+                <td>1</td>
+                <td>2023-01-11 14:28:32</td>
+                <td>Triple Chance Mobile</td>
+                <td>895 (1x) (Single: 5 Double: 95 Triple: 895)</td>
+                <td>100000049084</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2023-01-11 14:28:32</td>
+                <td>Triple Chance Mobile</td>
+                <td>895 (1x) (Single: 5 Double: 95 Triple: 895)</td>
+                <td>100000049084</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>2023-01-11 14:28:32</td>
+                <td>Triple Chance Mobile</td>
+                <td>895 (1x) (Single: 5 Double: 95 Triple: 895)</td>
+                <td>100000049084</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>2023-01-11 14:28:32</td>
+                <td>Triple Chance Mobile</td>
+                <td>895 (1x) (Single: 5 Double: 95 Triple: 895)</td>
+                <td>100000049084</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>2023-01-11 14:28:32</td>
+                <td>Triple Chance Mobile</td>
+                <td>895 (1x) (Single: 5 Double: 95 Triple: 895)</td>
+                <td>100000049084</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>2023-01-11 14:28:32</td>
+                <td>Triple Chance Mobile</td>
+                <td>895 (1x) (Single: 5 Double: 95 Triple: 895)</td>
+                <td>100000049084</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>2023-01-11 14:28:32</td>
+                <td>Triple Chance Mobile</td>
+                <td>895 (1x) (Single: 5 Double: 95 Triple: 895)</td>
+                <td>100000049084</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>2023-01-11 14:28:32</td>
+                <td>Triple Chance Mobile</td>
+                <td>895 (1x) (Single: 5 Double: 95 Triple: 895)</td>
+                <td>100000049084</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>2023-01-11 14:28:32</td>
+                <td>Triple Chance Mobile</td>
+                <td>895 (1x) (Single: 5 Double: 95 Triple: 895)</td>
+                <td>100000049084</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>2023-01-11 14:28:32</td>
+                <td>Triple Chance Mobile</td>
+                <td>895 (1x) (Single: 5 Double: 95 Triple: 895)</td>
+                <td>100000049084</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>2023-01-11 14:28:32</td>
+                <td>Triple Chance Mobile</td>
+                <td>895 (1x) (Single: 5 Double: 95 Triple: 895)</td>
+                <td>100000049084</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>2023-01-11 14:28:32</td>
+                <td>Triple Chance Mobile</td>
+                <td>895 (1x) (Single: 5 Double: 95 Triple: 895)</td>
+                <td>100000049084</td>
+            </tr>
+          </tbody>
+        </table>
+	</div>
+
+	
+</div>
+</div>
+
+<script type="text/javascript" src="assets/js/jquery.js"></script>
+
+<script>
+  $(".dropdown").click(function(){
+    $(this).toggleClass("dropdown-active").siblings().removeClass("dropdown-active");
+    //$(this).next(".sub-menu-list").toggleClass("sub_menu_active");
+  });
+</script>
+<script>
+	
+	$(".menu-toggle").click(function(){
+		$(this).toggleClass('menu-toggle-active');
+    $(".dashboardo-block").toggleClass("dashboardo-block-active");
+    $(".full-page").toggleClass("full-page-active");
+  });
+</script>
+<script>
+  $(".refresh-data").click(function(){
+    $(".loader-line").show();
+    setTimeout(function () {
+        $('.loader-line').hide();
+    }, 2000)
+  });
+</script>
+
+
+<script>
+	$(function() {
+  var list = $('.js-dropdown-list');
+  var link = $('.js-link');
+  link.click(function(e) {
+    e.preventDefault();
+    list.slideToggle(200);
+  });
+  list.find('li').click(function() {
+    //var text = $(this).html();
+    //var icon = '<i class="fa fa-chevron-down"></i>';
+    //link.html(text+icon);
+    list.slideToggle(200);
+    
+  });
+});
+</script>
+<script>
+	$("#search-filter-btn").click(function(){
+		$("#search-filter").toggleClass("filter-item-open");
+		$("#filter-filter").removeClass("filter-item-open");
+		$(".filter-btn").toggleClass("filter-btn-mb");
+	});
+</script>
+<script>
+	$("#filter-filter-btn").click(function(){
+		$("#search-filter").removeClass("filter-item-open");
+		$("#filter-filter").toggleClass("filter-item-open");
+		$(this).toggleClass("filter-btn-active");
+		$(".filter-btn").removeClass("filter-btn-mb");
+	});
+</script>
+</body>
+</html>

@@ -1,0 +1,2051 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dashboard</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header class="header">
+		<div class="header-wrapper">
+			<div class="logo-menu logo-menu-open">
+				
+				<a href="#" class="ds-logo">
+					Dashboard
+				</a>
+				<button class="menu-toggle menu-toggle-active">
+					<img class="active-menu-open" src="assets/img/toggle-bar.png" />
+					<img class="close-menu" src="assets/img/close.png" />
+					
+				</button>
+				<a href="#" style="color: #fff;margin-left: 5px;"><i class="fa fa-user-plus"></i></a>
+			</div>
+			<div class="status-game">
+				<div class="dropdown dropdown-admin">
+  <a href="#" class="js-link">Admin <i class="fa fa-chevron-down"></i></a>
+  <ul class="js-dropdown-list">
+    <li><i class="fa fa-user"></i> My Account</li>
+    <li><i class="fa fa-lock"></i> Update Security</li>
+    <li><i class="fa fa-money" aria-hidden="true"></i> Generate Amount</li>
+    <li><i class="fa fa-file"></i> Set Landing Page</li>
+    <li><i class="fa fa-sign-out fa-fw"></i> Logout</li>
+  </ul>
+</div>
+				
+			</div>
+		</div>
+	</header>
+<div class="full-page full-page-active">
+
+
+<!-- Left Side Menu -->
+
+<div class="dashboardo-block scroller dashboardo-block-active">
+	<div class="das-menu">
+		
+		<div class="das-menu-list">
+			<ul>
+				<li class="nav-link">
+					<a href="index.html"><i class="fa fa fa-dashboard" title="Dashboard"></i><span>Dashboard</span></a>
+				</li>
+				<li class="dropdown nav-link">
+					<a href="javascript:void(0)"><i class="fa fa fa-users" title="Live Players"></i><span>Live Players</span> <span class="arrow"><img src="assets/img/right.png" width="8" /></span></a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Bot Status</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown nav-link">
+					<a href="javascript:void(0)"><i class="fa fa fa-tasks" title="Game Management"></i><span>Game Management</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Poker Table</a>
+						</li>
+						<li>
+							<a href="#">Rummy Table</a>
+						</li>
+						<li>
+							<a href="#">Call Break Table</a>
+						</li>
+						<li>
+							<a href="#">Ludo Table</a>
+						</li>
+					</ul>
+				</li>
+				<li class="nav-link">
+					<a href="#"><i class="fa fa fa-history" title="Game History"></i><span>Game History</span>
+					</a>
+				</li>
+				<li class="dropdown nav-link">
+					<a href="javascript:void(0)"><i class="fa fa fa-user"></i><span>Player Management</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="online-players-list.html" class="active">Online Players List</a>
+						</li>
+						<li>
+							<a href="#">Bank Details</a>
+						</li>
+						<li>
+							<a href="#">Player Kyc</a>
+						</li>
+					</ul>
+				</li>
+				<li class="nav-link">
+					<a href="#"><i class="fa fa fa-male" title="Affiliate Management"></i><span>Affiliate Management</span>
+					</a>
+				</li>
+				<li class="dropdown nav-link">
+					<a href="javascript:void(0)"><i class="fa fa fa-money" title="Finance"></i><span>Finance</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Send Out</a>
+						</li>
+						<li>
+							<a href="#">Deposit transactions</a>
+						</li>
+						<li>
+							<a href="#">Claim Back</a>
+						</li>
+						<li>
+							<a href="#">Cashin vs Cashout</a>
+						</li>
+						<li>
+							<a href="#">Withdrawal Transaction</a>
+						</li>
+						<li>
+							<a href="#">Withdrawal Request</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown nav-link">
+					<a href="javascript:void(0)"><i class="fa fa-money" title="Manage Campaign"></i><span>Manage Campaign</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Banner</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown nav-link">
+					<a href="javascript:void(0)"><i class="fa fa-fighter-jet" title="Manage Bots"></i><span>Manage Bots</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Poker AI Rules</a>
+						</li>
+						<li>
+							<a href="#">Bots Management</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown nav-link">
+					<a href="javascript:void(0)"><i class="fa fa fa-users" title="HR Management"></i><span>HR Management</span>
+					<span class="arrow"><img src="assets/img/right.png" width="8" /></span>
+					</a>
+					<ul class="sub-menu-list">
+						<li>
+							<a href="#">Role Management</a>
+						</li>
+					</ul>
+				</li>
+				
+			</ul>
+		</div>
+
+		
+
+	</div>
+	<div class="das-footer">
+		
+	</div>
+</div>
+
+
+
+	<div class="loader-line"></div>
+	<!-- <div class="refresh">
+		<button class="refresh-btn"> <img src="assets/img/refresh.png" /></button>
+	</div> -->
+	<div class="right-sidebar">
+	
+	<div class="das-bg-block w-100" style="display:block;">
+		<div class="flex-wrap" style="display: flex;justify-content: space-between;align-items: center;">
+		<div class="das-title">
+			<h1>Online Players List</h1>
+		</div>
+		<div class="filter-btn" style="display: flex;">
+			<div class="filter-item" id="search-filter" style="margin-right: 15px;">
+			<input type="text" placeholder="Search..." name="" class="table-search table-search-in" />
+			<button class="search-btn"><i class="fa fa-search"></i></button>
+		</div>
+			<button class="" id="search-filter-btn" style="margin-right:10px;"><i class="fa fa-search"></i></button>
+			<button id="filter-filter-btn">
+				<i class="fa fa-filter"></i>
+				<!-- <img src="assets/img/filter.png" class="deactive-filter" />
+				<img src="assets/img/filter(1).png" class="active-filter" /> -->
+			</button>
+		</div>	
+		</div>
+		<div class="w-100 table-filter" style="margin-top: 0px;">
+	
+	<div class="filter-item" id="filter-filter">
+			<select>
+			<option>Lorem Ipsum</option>
+			<option>Lorem Ipsum</option>
+		</select>
+		<select>
+			<option>Lorem Ipsum</option>
+			<option>Lorem Ipsum</option>
+		</select>
+		<select>
+			<option>Lorem Ipsum</option>
+			<option>Lorem Ipsum</option>
+		</select>
+		<select>
+			<option>Lorem Ipsum</option>
+			<option>Lorem Ipsum</option>
+		</select>
+		</div>
+	</div>
+
+	</div>
+	
+	
+	<div class="w-100 online-players-list" style="height: inherit;">
+		<table class="data-table table">
+			<thead>
+				<tr class="data-filter">
+					<th style="padding-right: 5px;"><input id="allcheckbox" type="checkbox" style=""></th>
+					
+					<th>
+						<div class="d-flex">Player 
+						<img class="sort-unactive" src="assets/img/sort.png" />
+						<img class="sort-active" src="assets/img/sort(2).png">
+					</div>
+					</th>
+					<th> <div class="d-flex">American Dollar 
+						<img class="sort-unactive" src="assets/img/sort.png" />
+						<img class="sort-active" src="assets/img/sort(2).png">
+					</div></th>
+					<th><div class="d-flex">Play Money 
+						<img class="sort-unactive" src="assets/img/sort.png" />
+						<img class="sort-active" src="assets/img/sort(2).png">
+					</div></th>
+					<th><div class="d-flex">IP 
+						<img class="sort-unactive" src="assets/img/sort.png" />
+						<img class="sort-active" src="assets/img/sort(2).png">
+					</div></th>
+					<th><div class="d-flex">Country 
+						<img class="sort-unactive" src="assets/img/sort.png" />
+						<img class="sort-active" src="assets/img/sort(2).png">
+					</div></th>
+					<th><div class="d-flex">Affiliate 
+						<img class="sort-unactive" src="assets/img/sort.png" />
+						<img class="sort-active" src="assets/img/sort(2).png">
+					</div></th>
+					<th><div class="d-flex">Seating Tables 
+						<img class="sort-unactive" src="assets/img/sort.png" />
+						<img class="sort-active" src="assets/img/sort(2).png">
+					</div></th>
+					<th><div class="d-flex">Type 
+						<img class="sort-unactive" src="assets/img/sort.png" />
+						<img class="sort-active" src="assets/img/sort(2).png">
+					</div></th>
+					<th class="action-th-mb"><div class="d-flex"> 
+					</div></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>10.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					
+					<td><a href="#">toney (14315)</a></td>
+					<td>20.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn action-btn-setting">
+							<button><i class="fa fa-user"></i> Edit</button>
+							<button><i class="fa fa-user"></i> Pause</button>
+							<button style="border-radius: 0 5px 0 0;"><i class="fa fa-user"></i> Delete</button>
+							<button><i class="fa fa-user"></i> Edit</button>
+							<button><i class="fa fa-user"></i> Pause</button>
+							<button><i class="fa fa-user"></i> Delete</button>
+							<button style="border-radius: 0px 0px 0 5px;"><i class="fa fa-user"></i> Edit</button>
+							<button><i class="fa fa-user"></i> Pause</button>
+							<button><i class="fa fa-user"></i> Delete</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>30.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;color: #676767;font-size: 14px;text-transform: uppercase;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn actin-payment-btn">
+							<div class="item-3">
+								<!-- <h2 class="action-title">Payments</h2> -->
+								<button>
+									<img src="assets/img/edit.png" />
+									<p>
+										<strong>Edit</strong>
+									</p>
+								</button>
+								<button>
+									<img src="assets/img/joystick.png" />
+									<p>
+										<strong>Game Assign</strong>
+									</p>
+								</button>
+								<button>
+									<img src="assets/img/log-out.png">
+									<p>
+										<strong>Send Out</strong>
+									</p>
+								</button>
+							</div>
+							<div class="item-3">
+								
+								<button>
+									<img src="assets/img/withdraw.png" />
+									<p>
+										<strong>Claim Back</strong>
+									</p>
+								</button>
+								<button>
+									<img src="assets/img/money-transfer.png" />
+									<p>
+										<strong>Transaction</strong>
+									</p>
+								</button>
+								<button>
+									<img src="assets/img/accepted.png" />
+									<p>
+										<strong>KYC Document</strong>
+									</p>
+								</button>
+							</div>
+							<div class="item-3">
+								
+								<button>
+									<img src="assets/img/joystick.png" />
+									<p>
+										<strong>Game History</strong>
+									</p>
+								</button>
+								<button>
+									<img src="assets/img/reset-password.png">
+									<p>
+										<strong>Reset Login</strong>
+									</p>
+								</button>
+								<button>
+									<img src="assets/img/gamepad.png">
+									<p>
+										<strong>Player Club</strong>
+									</p>
+								</button>
+							</div>
+
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>40.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;color: #676767;font-size: 14px;text-transform: uppercase;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn actin-payment-btn actin-payment-btn-sc">
+							<div class="item-3">
+								<!-- <h2 class="action-title">Payments</h2> -->
+								<button>
+									<img src="assets/img/edit.png" />
+									<p>
+										<strong>Edit</strong>
+										<span>Change User information</span>
+									</p>
+								</button>
+								<button>
+									<img src="assets/img/withdraw.png" />
+									<p>
+										<strong>Claim Back</strong>
+										<span>Withdraw User's Balance</span>
+									</p>
+								</button>
+								<button>
+									<img src="assets/img/joystick.png" />
+									<p>
+										<strong>Game History</strong>
+										<span>Session Details of Games</span>
+									</p>
+								</button>
+							</div>
+							<div class="item-3">
+								<!-- <h2 class="action-title">Payments</h2> -->
+								<button>
+									<img src="assets/img/joystick.png" />
+									<p>
+										<strong>Game Assign</strong>
+										<span>Manage Game Permission</span>
+									</p>
+								</button>
+								<button>
+									<img src="assets/img/money-transfer.png" />
+									<p>
+										<strong>Transactions</strong>
+										<span>View Transaction Details</span>
+									</p>
+								</button>
+								<button>
+									<img src="assets/img/reset-password.png">
+									<p>
+										<strong>Reset Login</strong>
+										<span>User's Credential Reset</span>
+									</p>
+								</button>
+							</div>
+							<div class="item-3">
+								<!-- <h2 class="action-title">Payments</h2> -->
+								<button>
+									<img src="assets/img/log-out.png">
+									<p>
+										<strong>Send Out</strong>
+										<span>Refill User's Wallet</span>
+									</p>
+								</button>
+								<button>
+									<img src="assets/img/accepted.png">
+									<p>
+										<strong>KYC Document</strong>
+										<span>View User's Documents</span>
+									</p>
+								</button>
+								<button>
+									<img src="assets/img/gamepad.png">
+									<p>
+										<strong>Player Club</strong>
+										<span>User's Royalty Club </span>
+									</p>
+								</button>
+							</div>
+
+						</div>
+
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>50.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>60.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>70.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>80.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>90.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>100.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>1.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>1.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>1.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><a href="#">toney (14315)</a></td>
+					<td>0.00</td>
+					<td>1920.95</td>
+					<td>:ffff.138.201.75.104</td>
+					<td>Reserved</td>
+					<td>-</td>
+					<td><a href="#">omaha H/L #1</a></td>
+					<td>Cash</td>
+					<td class="position-relative action-th-mb">
+						<button class="action" style="border: 0;background: transparent;"><i class="fa fa-gear"></i></button>
+						<div class="action-btn">
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+							<button><i class="fa fa-user"></i> Generate Amount</button>
+						</div>
+					</td>
+				</tr>
+				
+			</tbody>
+			<!-- <tfoot>
+				<tr>
+					<td colspan="11">
+						<div class="pagination">
+							<button>|<</button>
+							<button><</button>
+							<span style="padding: 0 10px;">...</span>
+							<button>1</button>
+							<button>2</button>
+							<button>3</button>
+							<button>></button>
+							<button>>|</button>
+
+						</div>
+					</td>
+				</tr>
+			</tfoot> -->
+		</table>
+		<!-- <div class="table-row">
+			<p>Rows per page <select><option>10</option><option>15</option><option>15</option></select>
+			<span class="">1-10 of 15</span>
+		</p>
+
+		</div> -->
+	</div>
+
+	
+
+		
+</div>
+</div>
+
+
+<script type="text/javascript" src="assets/js/jquery.js"></script>
+<!-- <script type="text/javascript" src="assets/js/paginathing.js"></script>
+
+<script type="text/javascript">
+  jQuery(document).ready(function($){
+   
+
+    $('.table tbody').paginathing({
+      perPage: 10,
+      insertAfter: '.table',
+      pageNumbers: true
+    });
+  });
+</script> -->
+
+<script type="text/javascript" language="javascript" src="assets/js/jquery.dataTables.min.js"></script>
+<script>
+      jQuery(document).ready(function($){
+  $('.table').DataTable({
+    language: {
+      lengthMenu: "Rows per page _MENU_",
+      info: "_PAGE_ of _PAGES_",
+      search: "Cherche bouffon !",
+      paginate: {
+        first:      "Premier",
+        last:       "Précédent",
+        next:       ">",
+        previous:   "<"
+      }
+    }
+  });
+});
+    </script>
+
+<script>
+  $(".dropdown").click(function(){
+    $(this).toggleClass("dropdown-active").siblings().removeClass("dropdown-active");
+    //$(this).next(".sub-menu-list").toggleClass("sub_menu_active");
+  });
+</script>
+<script>
+	
+	$(".menu-toggle").click(function(){
+		$(this).toggleClass('menu-toggle-active');
+    $(".dashboardo-block").toggleClass("dashboardo-block-active");
+    $(".full-page").toggleClass("full-page-active");
+    $(".logo-menu").toggleClass("logo-menu-open");
+  });
+</script>
+
+<script>
+	$(".action").click(function(){
+		$(this).parent().parent().toggleClass("action-btn-open").siblings().removeClass("action-btn-open");
+	});
+</script>
+<script>
+
+	
+
+
+
+   
+
+const $menu = $('.dropdown-admin')
+
+const onMouseUp = e => {
+ if (!$menu.is(e.target) // If the target of the click isn't the container...
+   && $menu.has(e.target).length === 0) // ... or a descendant of the container.
+   {
+     $menu.removeClass('is-active')
+  }
+}
+
+$('.js-link').on('click', () => {
+	$(".online-players-list table tbody tr.action-btn-open").removeClass("action-btn-open");
+  $menu.toggleClass('is-active').promise().done(() => {
+    if ($menu.hasClass('is-active')) {
+      $(document).on('mouseup', onMouseUp) // Only listen for mouseup when menu is active...
+    } else {
+      $(document).off('mouseup', onMouseUp) // else remove listener.
+    }
+  })
+})
+
+
+
+	
+</script>
+
+<script>
+	
+ $(".search-btn").click(function(){
+    $.each($(".data-table tbody tr"), function() {
+
+       if($(this).text().toLowerCase().indexOf($('.table-search').val().toLowerCase()) === -1)
+          $(this).hide();
+          else
+           $(this).show();                
+    });
+  });
+</script>
+<script>
+	$("#search-filter-btn").click(function(){
+		$("#search-filter").toggleClass("filter-item-open");
+		$("#filter-filter").removeClass("filter-item-open");
+		$(".filter-btn").toggleClass("filter-btn-mb");
+	});
+</script>
+<script>
+	$("#filter-filter-btn").click(function(){
+		$("#search-filter").removeClass("filter-item-open");
+		$("#filter-filter").toggleClass("filter-item-open");
+		$(this).toggleClass("filter-btn-active");
+		$(".filter-btn").removeClass("filter-btn-mb");
+	});
+</script>
+<script>
+	$("#allcheckbox").click(function(){
+    $('input:checkbox').not(this).prop('checked', this.checked);
+});	
+</script>
+
+</body>
+</html>
